@@ -2,8 +2,8 @@
 # Definition: definitions/boards/seeed_xiao_esp32c6/manifest.yaml
 
 esphome:
-  name: synthetic-ntc
-  friendly_name: synthetic-ntc
+  name: synthetic-t6-thermistor
+  friendly_name: synthetic-t6-thermistor
   comment: Synthetic Honeywell Indoor Temperature Sensor
 
 esp32:
@@ -17,7 +17,7 @@ logger:
 
 api:
   encryption:
-    key: !secret synthetic_ntc__encryption_key
+    key: !secret synthetic_t6_thermistor__encryption_key
 
 ota:
   - platform: esphome
@@ -26,7 +26,7 @@ wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
   ap:
-    ssid: synthetic-ntc Fallback Hotspot
-    password: !secret synthetic_ntc__fallback_hotspot
+    ssid: synthetic-t6-thermistor Fallback Hotspot
+    password: !secret synthetic_t6_thermistor__fallback_hotspot
 
 captive_portal:

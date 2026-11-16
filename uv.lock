@@ -1540,7 +1540,7 @@ wheels = [
 ]
 
 [[package]]
-name = "synthetic-ntc"
+name = "synthetic-t6-thermistor"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

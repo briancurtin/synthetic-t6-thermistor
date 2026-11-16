@@ -1,6 +1,7 @@
-# synthetic-ntc
-An esp32 project to synthesize a Negative Temperature Coefficient thermistor
-using inputs from networked temperature sensors
+# synthetic-t6-thermistor
+An esp32 project to synthesize a Negative Temperature Coefficient thermistor,
+as used by the Honeywell T6 Pro thermostat, using inputs from networked
+temperature sensors
 
 > [!NOTE]
 > This project is currently in the design phase, learning what is possible with
